@@ -1,0 +1,158 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #40514E;
+  line-height: 2;
+
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 3.5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Roboto Slab', serif;
+}
+
+hr {
+  width: 5%;
+  margin: 50px auto 0 auto;
+  border-top: 6px dotted #Eaf6f6;
+  border-bottom: 0;
+
+}
+
+/********* CLASSES **********/
+.top-container {
+  background-color: #effffb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  bottom: 300px;
+}
+
+.mountain {
+  display: inline-block;
+  position: relative;
+}
+
+
+
+.middle-container {
+margin: auto;
+
+}
+
+.profile {
+  margin: 100px auto;
+  width: 50%;
+}
+
+
+
+
+.skills{
+margin: 100px auto;
+
+}
+
+.web-icon{
+  float: left;
+  margin-right: 10px;
+}
+
+.design-icon{
+  float: right;
+  margin-left: 10px;
+}
+
+.photo-icon {
+
+  float: left;
+  margin-right: 10px;
+}
+  .skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+  }
+
+.contact-me {
+width: 50%;
+margin: 100px auto;
+
+}
+
+.btn{
+	box-shadow: 2px 4px 0px -2px #d6d3d6;
+	background:linear-gradient(to bottom, #66BFBF 5%, #11999e 100%);
+	background-color:#66bfbf;
+	border-radius:32px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	padding:12px 22px;
+  margin-top: 5px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #66bfbf 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+color: #11999e;
+padding: 15px 20px;
+text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #eaf6f6;
+}
+
+.copyright{
+  color: #Eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  width: 100%;
+padding: 50px 0;
+
+}
